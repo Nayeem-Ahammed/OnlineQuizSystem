@@ -8,6 +8,7 @@ public class Question {
     private List<String> options;
     private int correctAnswerIndex;
 
+    // setter
     public Question(String questionText, List<String> options, int correctAnswerIndex) {
         this.questionText = questionText;
         this.options = options;
@@ -15,7 +16,7 @@ public class Question {
     }
 
     // getters
-    public String getQuestion() {
+    public String getQuestionText() {
         return questionText;
     }
     public List<String> getOptions() {
@@ -24,5 +25,5 @@ public class Question {
     public int getCorrectAnswerIndex() {
         return correctAnswerIndex;
     }
-    
+
 }
